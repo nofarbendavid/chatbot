@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+
+  --chat-bubble-light-color: #E8E8E8;
+  --chat-bubble-dark-color: #414141;
+
+  --wide-spacing: 20px;
+  --narrow-spacing: 10px;
+
+
+  --input-container-height: 8vh;
+  --chatbot-container-height: calc(100vh - var(--input-container-height));
+
+}

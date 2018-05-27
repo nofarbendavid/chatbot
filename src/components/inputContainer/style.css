@@ -1,0 +1,29 @@
+.input-container{
+    height: var(--input-container-height);
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    padding: var(--narrow-spacing) var(--wide-spacing);
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+
+.input-container input {
+    border: 1px solid #CECDCE;
+    border-radius: 5px;
+    height: 80%;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    margin-right: var(--wide-spacing);
+}
+
+
+.submit-icon{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}

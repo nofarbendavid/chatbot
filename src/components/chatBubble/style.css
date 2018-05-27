@@ -1,0 +1,34 @@
+.text-bubble {
+    width: fit-content;
+    padding: var(--wide-spacing);
+    display: flex;
+    align-items: center;
+    hyphens: auto;
+    line-height: 1.125rem;
+    margin-top: var(--narrow-spacing);
+}
+
+.text-bubble.maya{
+    --text-animation-duration: 2.5s;
+    margin-left: var(--narrow-spacing);
+    background-color: var(--chat-bubble-light-color);
+    color: var(--chat-bubble-dark-color);
+    border-radius: 15px 15px 15px 3px;
+}
+
+
+.text-bubble.maya:first-child{
+    border-radius: 15px 15px 15px 3px !important;
+}
+
+.text-bubble.maya:last-child{
+    border-radius: 3px 15px 15px 15px;
+}
+
+
+.text-bubble.user{
+    margin-right: var(--narrow-spacing);
+    background-color: var(--chat-bubble-dark-color);
+    border-radius: 30px;
+    color: var(--chat-bubble-light-color);
+}

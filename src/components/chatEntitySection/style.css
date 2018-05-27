@@ -1,0 +1,23 @@
+.chat-entity-section{
+    display: flex;
+}
+
+.chat-entity-section.user{
+    flex-direction: row-reverse;
+}
+
+.avatar-wrapper {
+    display: flex;
+    align-items: flex-end;
+}
+
+.avatar-img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.bubbles-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 65%;
+}
